@@ -1,0 +1,222 @@
+<div class="container">
+  <div class="projectContainer">
+    <h2 class="heading">
+      <span
+        class="headingMain"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+        >Projects</span
+      >
+      <span
+        class="headingSub"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      Access personal and client projects with source code and live links, highlighting my development work and technical expertise.
+      </span>
+    </h2>
+
+    <app-project-items Responsive>
+      <img
+        src="../assets/projects/nsr1.png"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+       NSR REGISTRATION <br/>
+       <small class="sub-text">(Client project)</small>
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      I've worked on the NSR Registration module, utilizing Java and Spring Boot for the backend, and Angular for the client-side development. This involved designing and implementing features, ensuring robust performance, and integrating smooth user experiences. My focus was on efficient coding and seamless functionality across both server and client layers.
+      </p>
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+        <div class="toolsName" *ngFor="let tools of firstPoject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectOne()">
+        Live Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img
+        src="../assets/projects/new-nsr.png"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      NSR REG. VERIFY (nsr3.o)
+      <small class="sub-text">(Client project)</small>
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      I am involved in the NSR 3.0 module, overseeing user registrations. Here, NDML makers and checkers meticulously verify personal information, professional qualifications, and employment details submitted by users to ensure all data is accurate and compliant with regulatory standards. This step is crucial for maintaining the integrity of the system.
+      </p>
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+        <div class="toolsName" *ngFor="let tools of secoundProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectTwo()">
+        Live Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img
+        src="../assets/projects/workar.png"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      THE WORKAR <br/>
+      <small class="sub-text">(Client project)</small>
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      <strong>The Workar</strong>Company, I am leading a personal project focused on frontend design using React.js. My role involves creating and optimizing user interfaces to ensure a seamless and engaging experience. This project allows me to leverage my skills and contribute to innovative web solutions.
+      </p>
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+        <div class="toolsName" *ngFor="let tools of thirdProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectThree()">
+        Live Link
+      </button>
+    </app-project-items>
+
+
+    <app-project-items Responsive>
+      <img
+        src="../assets/projects/personal.jpg"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      OWN PROJECTS
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+My GitHub project showcases my coding skills through various personal and collaborative projects. It includes diverse repositories, from simple scripts to complex applications. Each project is well-documented with clear instructions and code comments, reflecting my commitment to quality and continuous improvement in software development.
+      </p>
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+        <div class="toolsName" *ngFor="let tools of fourProject">
+          {{ tools.name | uppercase }}
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectFour()">
+        Live Link
+      </button>
+    </app-project-items>
+
+
+  </div>
+</div>
