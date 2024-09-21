@@ -21,7 +21,7 @@ export const environment = {
   // project
 
   projectOne: 'https://nationalskillsregistry.com/nsr/registration/#/personal-info',
-  projectTwo: 'https://nationalskillsregistry.com/nsr/3.o/#/',
+  projectTwo: 'https://nationalskillsregistry.com/nsr/3.0/#/',
   projectThree:
   'https://www.linkedin.com/company/theworkar/?originalSubdomain=in',
   projectFour: 'https://github.com/pankajkumar5756',
